@@ -65,8 +65,10 @@
       </div>
     </header>
     <main>
+     
       <section class="mine-project">
         <div class="container hero-container">
+<!-- Project button filter -->
           <h1 class="project-title visually-hidden">Наші проекти</h1>
           <ul class="project-list list">
             <li class="project-item">
@@ -85,14 +87,22 @@
               <button class="btn-two" type="button">Маркетинг</button>
             </li>
           </ul>
+<!-- Portfolio cards -->
           <ul class="mine-portfolio list">
             <li class="portfolio-list">
               <a class="portfolio-item" href="#">
-                <img
+                <div class="portfolio-content">
+                  <img
                   src="./images/optim_img/project-1.jpg"
                   alt="Веб-сайт Технокряк, зораження головної сторінки"
                   width="370"
-                />
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
                 <div class="portfolio-text-box">
                   <h2 class="portfolio-title">Технокряк</h2>
                   <p class="portfolio-text">Веб-сайт</p>
@@ -278,12 +288,5 @@
       </div>
     </footer> 
     </div>
-    <div class="backdrop">
-      <div class="modal">
-        <button class="modal-btn" type="button">Button</button>
-        <svg width="" height="">
-          <use></use>
-        </svg>
-      </div>
   </body>
 </html>
