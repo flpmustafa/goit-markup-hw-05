@@ -635,13 +635,11 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
   position: fixed;
   top: 0;
   left: 0;
-  transform: translate(-50% -50%);
-  z-index: 1000;
-
+  /* transform: translate(-50%, -50%); */
+  z-index: 100;
   width: 100%;
   height: 100%;
-
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   transition: visibility 1000ms, opacity 1000ms;
 }
 
@@ -656,7 +654,6 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   width: 582px;
   height: 581px;
   background-color: var(--bgr-mine-cl);
