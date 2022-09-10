@@ -637,12 +637,12 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color var(--animation);
 }
 
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--accent-cl);
-  transition: var(--animation);
 }
 
 .social-icon-footer {
