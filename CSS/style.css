@@ -602,11 +602,10 @@ address {
 .addr-item:last-child {
   margin: 0;
 }
-footer-.btn-two:hove
+
 a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
 {
   color: var(--white-txt-cl);
-  transition: color var(--animation);
 }
 
 .addr-item .footer-link:hover,
